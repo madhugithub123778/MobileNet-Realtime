@@ -1,0 +1,59 @@
+  .heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:15px 15px 20px darkblue;
+font-size: 30px;
+font-family: 'Courier';
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px darkgreen;
+    float: none;
+    font-family: 'Verdana';
+    font-size: 25px;
+    border: 2px double green;
+  }
+
+  .heading_div2
+  {
+    font-size: 18px ;
+    float: none;
+    color: navy;
+    font-style: italic;
+   
+  }
+  .object, .percent{
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+    border: 3px dotted rgb(201, 255, 201);
+    font-family: 'Courier';
+    margin-top: 20px;
+  }
+
+ .copy_right_footer{
+bottom: 0;
+position: fixed; 
+text-align: center;
+width: 100%; 
+background-color: navy;
+color: white;
+font-family: 'Trebuchet MS';
+line-height: 3;
+font-size: 18px;
+ } 
+
+ #object_result, #accuracy_result{
+font-weight: bold; color: red; background-color: lightyellow;font-size: 23px;padding: 5px;
+white-space: pre-line;
+ }
+
+ canvas{
+border: 4px inset darkblue;
+margin-top: 150px;
+
+ }
+ 
